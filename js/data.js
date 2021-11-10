@@ -38,12 +38,12 @@ function Formdata(data){
     
     if(data.phone != null && data.phone.value.length < 5)
     {
-    alert('поле "Контактный телефон" повинно мати мінімум 5 символів');
+    alert('поле "Контактний телефон" повинно мати мінімум 5 символів');
     return false;}
    
     number = document.getElementById("summa");
     if (number.value !== '20')
     {
-    alert('"Сума" не введена или введена не вірно');
+    alert('"Сума" не введена або введена не вірно');
     return false;}
     }
